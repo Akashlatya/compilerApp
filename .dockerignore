@@ -1,0 +1,20 @@
+# Dependencies
+node_modules
+backend/node_modules
+frontend/node_modules
+
+# Build output
+dist
+frontend/dist
+backend/temp
+
+# Environment
+.env
+.env.production
+.git
+.github
+.vscode
+
+# Logs
+logs
+*.log

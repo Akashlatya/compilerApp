@@ -1,0 +1,18 @@
+{
+  "name": "ogcompiler",
+  "version": "1.0.0",
+  "private": true,
+  "description": "OG Compiler - Master Programming Platform",
+  "scripts": {
+    "dev": "npm run dev --prefix frontend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "start": "npm run start --prefix backend",
+    "start:frontend": "npm run start --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "install:all": "npm install --prefix backend && npm install --prefix frontend"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
